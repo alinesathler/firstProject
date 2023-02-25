@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tip's Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1 class="title">Tip's Calculator</h1>
+        </div>
+        <div>
+        <form class="tipsForm" id="tipsForm">
+            <label for="bill">
+                <p><h3>Total amount</h3></p>
+            </label>
+            <p>
+                U$ <input type="number" placeholder="100" name="bill" id="bill" class="formInput" required>
+            </p>
+            <label for="ServiceQuality">
+                <p><h3>How was the service?</h3></p>
+            </label>
+            <p>
+                <select name="ServiceQuality" id="ServiceQuality" class="formSelect" required>
+                    <option disable selected value="0">Choose an option</option>
+                    <option value="0.3">30% - Amazing</option>
+                    <option value="0.2">20% - Good</option>
+                    <option value="0.15">15% - Ok</option>
+                    <option value="0.1">10% - Not good</option>
+                    <option value="0.05">5% - Terrible</option>
+                </select>
+            </p>
+            <label for="people">
+                <p><h3>How many people?</h3></p>
+            </label>
+            <p>
+                <input type="number" placeholder="1" name="people" id="people" class="formInput" required> people
+            </p>
+            <button type="submit" class="formSubmit">Ok!</button>
+        </form>
+        </div>
+        <div id="totalTip">
+            Tip:
+            $ <span id="tip">0,00</span>
+            <span id="each">each</span>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="scripts.js"></script>
+<footer>
+    <div id="footer">
+        <h6><p>Aline Sathler</p>
+            <p>sathler@ymail.com</p>  
+            <p>+55(22)988575266</p>  
+        </h6>
+    </div>
+</footer>
+</html>

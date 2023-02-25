@@ -1,0 +1,13 @@
+Tags <p> [Conteúdo...]</p>
+	Títulos: <h1>...</h1>
+	Parágrafo: <p>...</p>
+	Evolver elementos com quebra de linha: <div>...</div>
+	Evolver elementos sem quebra de linha: <span>...</span>
+	Lista não ordenada: 	<ul>
+				<li>...</li>
+				</ul>
+	Lista ordenada: 	<ol>
+				<li>...</li>
+				</ol>
+	Link: <a href="">...</a>
+	Imagem: <img src=""/>
